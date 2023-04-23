@@ -3,10 +3,10 @@ import mysql.connector
 
 # Configure the database connection
 db = mysql.connector.connect(
-    host="projectcnm.cucfbo8ys8pe.us-east-1.rds.amazonaws.com",
+    host="database-1.crfkdnenuaax.us-east-1.rds.amazonaws.com",
     user="root",
     password="password",
-    database="lugage"
+    database="food"
 )
 
 
