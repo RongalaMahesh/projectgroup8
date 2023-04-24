@@ -111,9 +111,10 @@ span{
   border: 1px solid #4070f4;
 }
 
-.col-md-6 {
+.ben {
     width: 50%;
     padding: 0 15px;
+    text-align: center;
   }
   
   .Group-members {
