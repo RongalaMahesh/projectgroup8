@@ -72,15 +72,15 @@ body {
   justify-content: space-around;
 }
 .text{
-  width: 540px;
+  width: 1920px;
 }
-.text h2{
+.text h3{
   font-size: 90px;
   font-weight: 600;
   margin-bottom: 10px;
 
 }
-.text h5{
+.text h4{
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 20px;
