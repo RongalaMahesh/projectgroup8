@@ -18,15 +18,15 @@
         </nav>
     </header>
 	<main>
-	<h1>Login</h1>
+	<h1>Login to verify its you!</h1>
 	<form action="{{ url_for('view.login') }}" method="post">
-		<label for="username">Username:</label>
+		<label for="username">Enter your username</label>
 		<input type="text" id="username" name="username"><br><br>
-		<label for="password">Password:</label>
+		<label for="password"> Enter your Password:</label>
 		<input type="password" id="password" name="password"><br><br>
 		<input type="submit" value="Login">
 		<p class="form__text">
-			<a class="form__link" href="{{ url_for('view.registerpage') }}" id="linkCreateAccount">Don't have an account? Create account</a>
+			<a class="form__link" href="{{ url_for('view.registerpage') }}" id="linkCreateAccount">Don't have an One? No worries click to Create account</a>
 		</p>
 	</form>
 	
