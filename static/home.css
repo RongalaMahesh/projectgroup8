@@ -6,7 +6,7 @@ body {
   
   /* Header Styles */
   header {
-    background-color: yellowgreen;
+    background-color: #9acd32;
     color: #31b566;
   }
   
@@ -101,11 +101,11 @@ body {
   }
   
   .raju ul li, .features ul li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .tracking{
-    border: 5px solid rgb(51 50 54);
+    border: 3px solid #9acd32;
     padding: 10px;
     top: 70%;
     left: 55%;
