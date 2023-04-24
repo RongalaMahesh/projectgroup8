@@ -1,13 +1,13 @@
-
+/* Body Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
   }
   
- 
+  /* Header Styles */
   header {
-    background-color: #f47676;
-    color: #130202;
+    background-color: #333;
+    color: #fff;
   }
   
   nav {
@@ -33,7 +33,7 @@ body {
   }
   
   nav li.login-link {
-    margin-left: auto; 
+    margin-left: auto; /* add this property to move the "Login" link to the right */
   }
   
   nav ul li a {
@@ -86,25 +86,25 @@ body {
     margin-top: -2px;
   }
   
-  .raju, .features {
+  .benefits, .features {
     padding: 15px;
   }
   
-  .raju h2, .features h2 {
+  .benefits h2, .features h2 {
     text-align: left;
   }
   
-  .raju ul, .features ul {
+  .benefits ul, .features ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .raju ul li, .features ul li {
+  .benefits ul li, .features ul li {
     margin-bottom: 20px;
   }
   
-  .foodtrack{
+  .tracking{
 	position: absolute;
     border: 5px solid rgb(51 50 54);
     padding: 10px;
