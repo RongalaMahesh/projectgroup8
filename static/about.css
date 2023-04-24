@@ -75,14 +75,14 @@ body {
   width: 1920px;
 }
 .text h3{
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 42px;
+  font-weight: 800;
   margin-bottom: 20px;
 
 }
 .text h4{
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 32px;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 span{
