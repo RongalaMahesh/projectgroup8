@@ -47,7 +47,7 @@ body {
   }
   
   /* Main Styles */
-  .hero {
+  .bheem {
     text-align: relative;
     width: 100%;
     height: 196px;
@@ -55,7 +55,7 @@ body {
     background-color: #f0f0f0;
   }
 
-  .hero img{
+  .bheem img{
     position: absolute;
     top: 40px;
     left: 0;
@@ -64,7 +64,7 @@ body {
     object-fit: cover;
   }
   
-  .hero h1{
+  .bheem h1{
     position: absolute;
     top: 25%;
     left: 40%;
@@ -75,7 +75,7 @@ body {
     margin-top: 0;
   }
 
-  .hero p{
+  .bheem p{
     position: absolute;
     top: 32%;
     left: 50%;
