@@ -114,14 +114,14 @@ span{
 .ben {
     width: 50%;
     padding: 0 15px;
-    text-align: center;
+    text-align: left;
   }
   
   .Group-members {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     left: 26%;
     bottom: 1%;
     position: absolute;
@@ -130,8 +130,7 @@ span{
   .Group-member {
     width: 30%;
     margin-bottom: 50px;
-    text-align: center;
-    align-items: center; /* add this property to center the images */
+    text-align: left;
   }
   
   .Group-member img {
