@@ -105,7 +105,6 @@ body {
   }
   
   .tracking{
-	position: absolute;
     border: 5px solid rgb(51 50 54);
     padding: 10px;
     top: 70%;
