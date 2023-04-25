@@ -1,13 +1,13 @@
 
 *{
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 5px;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
  
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
   }
 
@@ -39,7 +39,7 @@ body {
   }
   
   nav li.login-link {
-    margin-left: auto; /* add this property to move the "Login" link to the right */
+    margin-left: auto; 
   }
  
   
