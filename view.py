@@ -1,13 +1,16 @@
 from flask import Blueprint, render_template, request
 import mysql.connector
 
-# Configure the database connection
+
+
+
 db = mysql.connector.connect(
     host="database-1.crfkdnenuaax.us-east-1.rds.amazonaws.com",
     user="root",
     password="password",
     database="food"
 )
+
 
 
 auth_bp = Blueprint('view', __name__)
@@ -46,7 +49,7 @@ def register():
     if password != confirm_password:
         return 'Passwords do not match'
     else:
-        # Execute the INSERT query to add a new user to the database
+       
         cursor.execute("INSERT INTO user (username, password) VALUES (%s, %s)", (username, password))
         db.commit()
         return render_template('home.html')
@@ -87,7 +90,10 @@ def registerlugage():
     cname = request.form['name']
     nol = request.form['nol']
     dest = request.form['dest']
-    # Execute the INSERT query to add a new user to the database
+ 
+
+
+
     cursor.execute("INSERT INTO foodorder (cname,nol,dest) VALUES (%s, %s,%s)", (cname, nol,dest))
     db.commit()
     return render_template('home.html')
