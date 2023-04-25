@@ -77,6 +77,10 @@ def track():
 def about():
     return render_template('about.html')
 
+@auth_bp.route('/menu')
+def menu():
+    return render_template('menu.html')
+
 @auth_bp.route('/registerlugage', methods=['POST'])
 def registerlugage():
     cursor = db.cursor()
